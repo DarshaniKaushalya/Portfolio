@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ProjectCards from '../components/ProjectCards'
+import ProjectNavbar from '../components/ProjectNavbar'
 
 import { projects as projectsData } from '../data'
 import { Category } from '../type'
@@ -31,15 +32,15 @@ const newArray = projectsData.filter((project)=>project.category.includes(catego
     return (
         <div 
                 className="px-5 py-2 overflow-y-scroll "
-                style={{height:"65vh"}}  
+                style={{height:"65vh"}} 
                 // variants={routeAnimation} 
                 // initial="initial" 
                 // animate="animate"
                 // exit="exit"
                 
                 >
-          {/* <ProjectsNavbar handlerFliterCategory={handlerFliterCategory}
-          active={active}/> */}
+      
+         <ProjectNavbar handlerFliterCategory={handlerFliterCategory}   active={active}/> 
 
           <div className="relative grid grid-cols-12 gap-4 my-3"
             //  variants={stagger} 
