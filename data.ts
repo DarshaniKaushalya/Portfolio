@@ -69,7 +69,7 @@ export const languages: ISkill[] = [
         Icon: BsCircleFill,
     },
     {
-        name:'PHP',
+        name:'J2ee',
         level:'60%',
         Icon: BsCircleFill,
     },
@@ -88,7 +88,7 @@ export const tools: ISkill[] = [
         Icon: BsCircleFill,
     },
     {
-        name:'Affter Effect',
+        name:'After Effect',
         level:'65%',
         Icon: BsCircleFill,
     },
@@ -103,12 +103,12 @@ export const tools: ISkill[] = [
         Icon: BsCircleFill,
     },
     {
-        name:'Art',
+        name:'Audacity',
         level:'60%',
         Icon: BsCircleFill,
     },
     {
-        name:'Singing',
+        name:'YouCut',
         level:'90%',
         Icon: BsCircleFill,
     },
@@ -118,7 +118,7 @@ export const projects:IProject[] = [
     {
         id:1,
         name:"Covid Tracker",
-        description:"Covid Tracker",
+        description:"Covid Tracker- Web & Mobile Application | Group Project",
         image_path:"/images/covid.jpg",
         deployed_url:"https://images.indianexpress.com/2020/03/Coronavirus-1200-12.jpg",
         github_url:"https://github.com/DarshaniKaushalya",
@@ -129,7 +129,7 @@ export const projects:IProject[] = [
     {
         id:2,
         name:"University App",
-        description:"University App",
+        description:"University App Mobile Application | Group Project",
         image_path:"/images/uni.jpg",
         deployed_url:"https://www.nsbm.ac.lk/wp-content/uploads/2019/08/nsbm-slider-0-1.jpg",
         github_url:"https://github.com/DarshaniKaushalya",
@@ -140,7 +140,7 @@ export const projects:IProject[] = [
     {
         id:3,
         name:"Eduzone",
-        description:"Educational App",
+        description:"Educational App - Web & Mobile Application | Final Year Project ",
         image_path:"/images/edu.jpg",
         deployed_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRltiFYDUcE7RwXrxJ-2UAkDX5wDXRXZkzGmhzqDqKShtgC3P0PBzleWVsXi7UWQHytLOg&usqp=CAU",
         github_url:"https://github.com/DarshaniKaushalya",
@@ -150,19 +150,19 @@ export const projects:IProject[] = [
 
     {
         id:4,
-        name:"College Story",
-        description:"College Story",
+        name:"University Accommodation App",
+        description:"University Accommodation App - Web Application | Group Project",
         image_path:"/images/col.jpg",
         deployed_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRalIGIc_efPA95XZvel9oYceUZjaodlHnaHw6oncMLmmENEaW91fn8MeP8Z_jsQVLTKoo&usqp=CAU",
         github_url:"https://github.com/DarshaniKaushalya",
-        category:["j2ee"],
+        category:["java"],
         key_techs:["React","Node"],
     },
 
     {
         id:5,
         name:"Distributed System",
-        description:"Distributed System",
+        description:"Distributed System - Web & Mobile Application | Group Project",
         image_path:"/images/dis.jpg",
         deployed_url:"http://www.ejbtutorial.com/wp-content/uploads/2013/09/challenges-distributed-systems.png",
         github_url:"https://github.com/DarshaniKaushalya",
@@ -172,8 +172,8 @@ export const projects:IProject[] = [
 
     {
         id:6,
-        name:"Protfolio",
-        description:"Protfolio",
+        name:"MyProtfolio",
+        description:"MyProtfolio - Web Application | Solo Project",
         image_path:"/images/pot.jpg",
         deployed_url:"https://s3.theasianparent.com/cdn-cgi/image/width=1200,fit=crop/tap-assets-prod/wp-content/uploads/sites/25/2021/02/What-should-a-good-portfolio-consist-of-w-650x322.jpg",
         github_url:"https://github.com/DarshaniKaushalya",
@@ -184,10 +184,10 @@ export const projects:IProject[] = [
     
     {
         id:7,
-        name:"Website",
-        description:"Website",
-        image_path:"/images/web.png",
-        deployed_url:"https://blog.addthiscdn.com/wp-content/uploads/2018/05/11124555/3-Things-Great-Websites-Have-in-Common1-672x372.png",
+        name:"Cycle Rental App",
+        description:"Cycle Rental App - Mobile App | Group Project",
+        image_path:"/images/cycle.jpg",
+        deployed_url:"https://thumbs.dreamstime.com/b/bike-rental-smartphone-application-map-menu-vector-illustration-white-backgorund-230155221.jpg",
         github_url:"https://github.com/DarshaniKaushalya",
         category:["php"],
         key_techs:["React","Node"],
