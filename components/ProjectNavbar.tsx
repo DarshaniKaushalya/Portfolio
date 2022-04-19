@@ -6,9 +6,9 @@ export const NavItem: FunctionComponent<{
   handlerFliterCategory: Function
   active: string
 }> = ({ value, handlerFliterCategory, active }) => {
-  let className = 'capitalize cursor-pointer hover:text-green'
+  let className = 'capitalize cursor-pointer hover:text-lime-500'
 
-  if (active === value) className += ' text-green'
+  if (active === value) className += ' text-lime-500'
 
   return (
     <li className={className} onClick={() => handlerFliterCategory(value)}>

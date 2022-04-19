@@ -101,7 +101,7 @@ const ProjectCard: FunctionComponent<{
             </motion.div>
           </motion.div>
 
-          {/* //close icon            */}
+          {/* //close icon */}
           <button
             onClick={() => setShowDetail(null)}
             className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
