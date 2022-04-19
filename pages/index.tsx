@@ -11,14 +11,13 @@ const index = () => {
  
   return (
     <motion.div className="flex flex-col flex-grow px-6 pt-1" variants={routeAnimation}>
-   <h5 className='my-3 font-medium text-justify'> I am a highly motivated and hardworking individual currently followed 
-     the PLYMOUTH BSc (HONS) Software Engineering Degree 
-     in NSBM Green University Town, Final year completed 
-     with a First Class Honours & hope to graduate at the end of 2021. 
-     Having a practical approach to problem-solving, and a great eye for detail, 
-     I am currently seeking a job as a Software Engineer with the long-term aspiration of 
-     reaching the highest of ranks possible within the industry. Eager to learn and overcome challenges, 
-     I have a genuine interest in Software Engineering.</h5>
+   <h5 className='my-3 font-medium text-justify'>
+  I am a highly motivated and hardworking individual 
+  currently followed the PLYMOUTH BSc (HONS) Software Engineering Degree 
+  in NSBM Green University Town; Final year completed with a First-Class Honors 
+  & hope to graduate at the end of 2021. Having a practical approach to problem-solving, 
+  and a great eye for detail, I am currently seeking an Job opportunity as a Software Engineer 
+  with the long-term aspiration of reaching the highest of ranks possible within the industry.</h5>
 
 <div className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100' 
      style={{marginLeft:'-1.5rem',marginRight:'-1.5rem'}}>

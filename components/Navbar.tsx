@@ -30,6 +30,7 @@ useEffect(()=>{
 if(pathname=== "/")setActiveItem('About')
 if(pathname=== "/projects")setActiveItem('Projects')
 if(pathname=== "/resume")setActiveItem('Resume')
+if(pathname === '/card') setActiveItem('Hire Me')
 
     
 },[])
@@ -41,6 +42,7 @@ if(pathname=== "/resume")setActiveItem('Resume')
 <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name='About' route='/'/>
 <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name='Projects' route='/projects'/>
 <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name='Resume' route='/resume'/>
+<NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Hire Me" route="/card" /> 
 </div>
     </div>
   )

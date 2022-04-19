@@ -18,7 +18,7 @@ const resume = () => {
         <h5 className='my-2 text-xl font-bold'>
           Software Engineering</h5>
         <p className='font-semibold'>NSBM green University</p>
-        <p className='my-3 text-justify'>I am currently seeking a job as a Software Engineer with the long-term aspiration of reaching the highest of ranks possible within the industry. Eager to learn and overcome challenges,
+        <p className='my-3 text-justify'>I am currently working as a Associate Software Engineer at Gapstars Software Company. Working very happy with the team. 
         I have a genuine interest in Software Engineering.</p>
     </div>
 </motion.div>

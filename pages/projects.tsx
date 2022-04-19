@@ -13,7 +13,7 @@ const Projects = () => {
    const[projects,setProjects] = useState(projectsData);
    const[active,setActive] = useState("all");
 
-   const[showDetail,setShowDetail] = useState<number | null>(null);
+   const[showDetail,setShowDetail] = useState<number|null>(null);
 
    
    const handlerFliterCategory = (category:Category | "all")=>{
@@ -54,7 +54,7 @@ const newArray = projectsData.filter((project)=>project.category.includes(catego
                           key={project.name}
                         
                           >
-                <ProjectCards project={project} />
+                <ProjectCards project={project} showDetail={showDetail} setShowDetail={setShowDetail}/>
                           
                       </motion.div>
                   ))

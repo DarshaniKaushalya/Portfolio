@@ -33,7 +33,6 @@ const ProjectNavbar:FunctionComponent<{
         <NavItem value='react' {...props}></NavItem>
         <NavItem value='node' {...props}></NavItem>
         <NavItem value='java' {...props}></NavItem>
-        <NavItem value='j2ee' {...props}></NavItem>
         <NavItem value='php' {...props}></NavItem>
      
 
