@@ -1,14 +1,18 @@
 import React from 'react'
 import Bar from '../components/Bar'
 import { languages, tools } from '../data'
+import {motion} from 'framer-motion'
+import {fadeInUp} from '../animations'
 
 const resume = () => {
+
+  
   return (
-    <div  className='px-4 py-2'>
+    <motion.div  className='px-4 py-2' >
     {/* //  education */}
     <div className='grid gap-6 md:grid-cols-2 '>
 
-<div>
+<motion.div variants={fadeInUp} initial="initial" animate="animate">
     <h5  className='my-3 text-2xl font-bold'>Education</h5>
     <div>
         <h5 className='my-2 text-xl font-bold'>
@@ -17,9 +21,9 @@ const resume = () => {
         <p className='my-3 text-justify'>I am currently seeking a job as a Software Engineer with the long-term aspiration of reaching the highest of ranks possible within the industry. Eager to learn and overcome challenges,
         I have a genuine interest in Software Engineering.</p>
     </div>
-</div>
+</motion.div>
 
-<div>
+<motion.div variants={fadeInUp} initial="initial" animate="animate">
     <h5 className='my-3 text-2xl font-bold'>Experiences</h5>
     <div>
         <h5 className='my-2 text-xl font-bold'>
@@ -27,7 +31,7 @@ const resume = () => {
         <p className='font-semibold'>2018-2021</p>
         <p className='my-3 text-justify'> Eager to learn and overcome challenges,I have a genuine interest in Software Engineering.</p>
     </div>
-</div>
+</motion.div>
 </div>
 {/* //Languages & experiences */}
 
@@ -58,7 +62,7 @@ const resume = () => {
 
 
       
-    </div>
+    </motion.div>
 
   )
 }

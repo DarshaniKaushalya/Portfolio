@@ -1,6 +1,8 @@
 // import { motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { GetServerSidePropsContext } from 'next'
 import React from 'react'
+import { fadeInUp, routeAnimation,stagger } from '../animations'
 // import { fadeInUp, routeAnimation, stagger } from '../animations'
 import ServiceCard from '../components/ServiceCard'
 import {services} from '../data'
@@ -8,7 +10,7 @@ import {services} from '../data'
 const index = () => {
  
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1 ">
+    <motion.div className="flex flex-col flex-grow px-6 pt-1" variants={routeAnimation}>
    <h5 className='my-3 font-medium text-justify'> I am a highly motivated and hardworking individual currently followed 
      the PLYMOUTH BSc (HONS) Software Engineering Degree 
      in NSBM Green University Town, Final year completed 
@@ -23,30 +25,29 @@ const index = () => {
   <h6 className='flex-grow my-3 text-xl font-bold tracking-wide'>What I offer</h6>
 
 {/* //child animation as slow than earliest one */}
-<div 
+<motion.div 
     className='grid gap-6 lg:grid-cols-2' 
-    // variants={stagger} 
-    // initial="initial" 
-    // animate="animate"
-    // exit="exit"
+    variants={stagger} 
+    initial="initial" 
+    animate="animate"
+    exit="exit"
     >
   {
     services.map(service=>( 
-      <div 
-      // variants={fadeInUp}
-   
-      
+      <motion.div 
+      variants={fadeInUp}
+
       className='bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1'>
       <ServiceCard service={service}/>
-      </div>
+      </motion.div>
     ))
   }
 
-</div>
+</motion.div>
 
 </div>
 
-    </div>
+    </motion.div>
   )
 }
 
