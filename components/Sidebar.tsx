@@ -60,7 +60,7 @@ const Sidebar = () => {
           <GoLocation />
           <span>Wariyapola, Srilanka</span>
         </div>
-        <h6 className="my-2 text-sm">darshanikaushalya7788dkd@gmail.com</h6>
+        <h6 className="my-2 text-sm">darshani@gmail.com</h6>
       </div>
       {/* Email Button */}
       <button
